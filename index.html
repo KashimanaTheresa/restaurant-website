@@ -1,112 +1,170 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Restaurant</title>
+  </head>
+  <body class="home-page">
     <header>
-        <nav>
-            <img src="img/photo_2026-09-25_22-31-43.jpg" alt="">
-            <ul class="menu">
-                <li><i class="fa fa-home" style="font-size:24px"></i><a href="index.html">Home</a></li>
-                <li><i class="fa fa-info-circle" style="font-size:24px"></i><a href="about.html">About Us</a></li>
-                <li><i class="fa fa-phone" style="font-size:24px"></i><a href="contact.html">Contact Us</a></li>
-            </ul>
-            
-        </nav>
+      <nav>
+        <img src="img/logo.jpg" alt="Restaurant-logo" class="logo" />
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
-         <section id="home">
-            <h1>Welcome to Food Domain</h1>
+      <section id="hero">
+        <div class="hero-text">
+          <h1>Welcome to Food Domain</h1>
 
+          <p>
+            Experience delicious meals, warm hospitality, and a relaxing
+            atmosphere at Food Domain Restaurant.
+          </p>
+
+          <p>
+            We serve freshly prepared dishes made with quality ingredients and
+            lots of love.
+          </p>
+          <a href="#contact"> place your order</a>
+        </div>
+        <div class="hero-image">
+          <img src="img/jollof-rice.jpg" alt="Jollof Rice" />
+        </div>
+      </section>
+
+      <section id="best-sellers">
+        <h2>Our Best Sellers</h2>
+        <p>Some of our customer's favorite dishes</p>
+        <div class="meal-slides">
+          <div class="cards">
+            <img src="img/6192518231147457.jpg" alt="" />
+            <h3>Moi Moi</h3>
+            <p>$1.00</p>
+          </div>
+          <div class="cards">
+            <img src="img/afang-soup.jpg" alt="" />
+            <h3>Pounded Yam and Assorted Afang Soup</h3>
+            <p>$5.00</p>
+          </div>
+          <div class="active-cards">
+            <img src="img/Puff-Puff.jpg" alt="" />
+            <h3>Puff Puff</h3>
+            <p>A pack of 10 pieces <br />$2.00</p>
+          </div>
+          <div class="cards">
+            <img src="img/Nigerian-Fried-Rice.jpg" alt="" />
+            <h3>Fried Rice</h3>
+            <p>$5.00</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="choose">
+        <h2>Why Choose Us</h2>
+
+        <div class="choose-item">
+          <div class="choose-img">
+            <img src="img/Jollof-Rice-Prep.jpg" alt="" />
+          </div>
+          <div class="choose-text">
+            <h3>Quality Ingredients</h3>
+            <p>We use only the best ingredients in all our dishes.</p>
+          </div>
+        </div>
+       
+        <div class="choose-item-reverse">
+          <div class="choose-img">
+            <img src="img/staff.jpg" alt="" />
+          </div>
+          <div class="choose-text">
+            <h3>Friendly Staff</h3>
             <p>
-                Experience delicious meals, warm hospitality, and a relaxing
-                atmosphere at Food Domain Restaurant.
+              Our staff is friendly and dedicated to providing excellent
+              service.
             </p>
+          </div>
+        </div>
 
+         <div class="choose-item">
+          <div class="choose-img">
+            <img src="img/yam-egg-sauce.jpg" alt="" />
+          </div>
+          <div class="choose-text">
+            <h3>Delicious Meals</h3>
             <p>
-                We serve freshly prepared dishes made with quality ingredients
-                and lots of love.
+              Our meals are prepared with care and using the finest ingredients.
             </p>
-            <a href="#contact">Book a Table / place your order</a>
-         </section>
+          </div>
+        </div> 
+        <div class="choose-item-reverse">
+          <div class="choose-img">
+            <img src="img/restaurant-env.jpg" alt="" />
+          </div>
+          <div class="choose-text">
+            <h3>Clean and Comfortable Environment</h3>
+            <p>
+              Our restaurant is clean and provides a comfortable dining
+              experience.
+            </p>
+          </div>
+        </div>
+      </section>
 
-         <section id="featuredmeals">
-            <h2>Our Best Sellers</h2>
-            <div>
-                <img src="img/6192518231147457.jpg" alt="">
-                <h3>Moi Moi</h3>
-                <p>$1.00</p>
-            </div>
-            <div>
-                <img src="img/afang-soup.jpg" alt="">
-                <h3>Pounded Yam and Assorted Afang Soup</h3>
-                <p>$5.00</p>
-            </div>
-            <div>
-                <img src="img/Puff-Puff.jpg" alt="">
-                <h3>Puff Puff</h3>
-                <p>A pack of 10 pieces <br>$2.00</p>
-            </div>
-            <div>
-                <img src="img/Nigerian-Fried-Rice.jpg" alt="">
-                <h3>Fried Rice</h3>
-                <p>$5.00</p>
-            </div>
+      <section id="opening-hours">
+    <div class="content">
+        <h2>Opening Hours</h2>
+        <p>Monday - Friday: 10:00 AM - 10:00 PM</p>
+        <p>Saturday: 11:00 AM - 11:00 PM</p>
+        <p>Sunday: 12:00 PM - 8:00 PM</p>
+    </div>
+</section>
 
-         </section>
-            
-         <section id="choose">
-            <h3>Why Choose Us</h3>
-                <ul>
-                    <li>Quality Ingredients</li>
-                    <li>Delicious Meals</li>
-                    <li>Friendly Staff</li>
-                    <li>Clean and Comfortable Environment</li>  
-                </ul>
-         </section>
-        
-
-            <div>
-                <h3>Opening Hours</h3>
-                <p>Monday - Friday: 10:00 AM - 10:00 PM</p>
-                <p>Saturday - Sunday: 11:00 AM - 11:00 PM</p>
-                <p>Sunday: 12:00 PM - 8:00 PM</p>
-            </div>
-         
-
-        
-         <section id="testimonial">
-            <h3>What Our Customers Say</h3>
-            <div>
-                <p>
-                    "The food was amazing! I loved the Moi Moi and the Afang Soup. Highly recommend!"
-                </p>
-                <p>- Abah John</p>
-            </div>
-            <div>
-                <p>
-                    "Great service and delicious meals. The Puff Puff was a hit with my kids!"
-                </p>
-                <p>- Ngodoo Mary</p>
-            </div>
-
-         </section>
-
-         <section id="location">
-            <h3>Find Us</h3>
-            <p>123 Before NNPC Bank road, High Level, Makurdi</p>
-            <p>Phone: (234) 456-7890</p>
-            <p>Email: info@fooddomain.com</p>
-
-         </section>
-
+      <section id="testimonial">
+        <h3>What Our Customers Say</h3>
+        <div class="testimonial-container">
+          <div class="testimonial-item">
+          <p>
+            "The food was amazing! I loved the Moi Moi and the Afang Soup.
+            Highly recommend!"
+          </p>
+          <p>- Abah John</p>
+        </div>
+        <div class="testimonial-item">
+          <p>
+            "Great service and delicious meals. The Puff Puff was a hit with my
+            kids!"
+          </p>
+          <p>- Ngodoo Mary</p>
+        </div>
+        <div class="testimonial-item">
+          <p>
+            "The atmosphere is wonderful and the staff is very helpful. I will
+            definitely be coming back!"
+          </p>
+          <p>- sewuese Shawon</p>
+        </div>
+        </div>
+      </section>
     </main>
-   <footer>
+    <footer>
+      <div cllass="footer-content">
         <p>&copy; 2026 Food Domain Restaurant. All Rights Reserved.</p>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
