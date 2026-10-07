@@ -1,71 +1,111 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body class="contact-page">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Food Domain Restaurant</title>
+  </head>
+  <body class="contact-page">
     <header>
-        <nav id="nav-links">
-            <img src="img/photo_2026-09-25_22-31-43.jpg" alt="">
-            <ul class="menu">
-                <li><i class="fa fa-home" style="font-size:24px"></i><a href="index.html">Home</a></li>
-                <li><i class="fa fa-info-circle" style="font-size:24px"></i><a href="about.html">About Us</a></li>
-                <li><i class="fa fa-phone" style="font-size:24px"></i><a href="contact.html">Contact Us</a></li>
-            </ul>
-            
-        </nav>
+      <nav id="nav-links">
+        <img src="img/logo.jpg" alt="Restaurant-logo" class="logo" />
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <section id="contact">
+      <section id="contact">
+        <div class="contact-glass">
+          <div class="contact-form">
             <h1>Contact Us</h1>
-            <p>We would love to hear from you! Please fill out the form below and we will get back to you as soon as possible.</p>
+            <p>
+              We would love to hear from you! Please fill out the form below and
+              we will get back to you as soon as possible.
+            </p>
             <form action="submit_form.php" method="post">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required><br><br>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required /><br /><br />
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required><br><br>
+              <label for="email">Email:</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+              /><br /><br />
 
-                <label for="message">Message:</label><br>
-                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+              <label for="message">Message:</label><br />
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                cols="50"
+                required
+              ></textarea
+              ><br /><br />
 
-                <input type="submit" value="Submit">
+              <input type="submit" value="Submit" />
             </form>
-        </section>
-        <section>
-            <h3>opening hours</h3>
-            <p>Sunday 12pm - 10pm</p>
-            <p>Monday - Fridays 8am - 9pm</p>
-            <p>Saturdays 10am - 9pm</p>
-        </section>
+          </div>
+        </div>
+      </section>
+      <section class="contact-info">
+        <div class="opening-hours">
+          <h2>Opening hours</h2>
+          <p>Sunday 12pm - 10pm</p>
+          <p>Monday - Fridays 8am - 9pm</p>
+          <p>Saturdays 10am - 9pm</p>
+        </div>
 
-        <section>
-            <h3>Our Socials</h3>
-            <a href="">Facebok</a>
-            <a href="">Instagram</a>
-            <a href=""> Tiktok</a>
-        </section>
-        <section id="location">
-            <h3>Find us</h3>
-            <p>123 Before NNPC Bank road, High Level, Makurdi</p>
-            <p>Phone: (234) 456-7890</p>
-            <p>Email: info@fooddomain.com</p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7907.399397472227!2d8.529183835362616!3d7.715335700969398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1050810052604a8b%3A0x388c9c047aba2f3d!2s24%20Hours%20Food%20Domain!5e0!3m2!1sen!2sng!4v1791017194314!5m2!1sen!2sng" 
-            width="600" 
-            height="450" 
-            style="border:0;" 
-            allowfullscreen="" 
-            loading="lazy" 
-            referrerpolicy="strict-origin-when-cross-origin">
-                
-            </iframe>
-        
-        </section>
+        <div class="socials">
+          <h2>Our Socials</h2>
+          <p>
+            Stay connected with us to see our latest meals, updates and offers
+          </p>
+          <a href="">Facebok</a>
+          <a href="">Instagram</a>
+          <a href=""> Tiktok</a>
+        </div>
+      </section>
+
+      <section id="location">
+        <div class="location-content">
+          <h2>Find us</h2>
+          <p>
+            Come visit us and enjoy a delicious meal in a warm and welcoming
+            atmosphere.
+          </p>
+
+          <p>
+            <strong>Address:</strong><br />
+            123 Restaurant Street,<br />
+            Makurdi, Benue State, Nigeria
+          </p>
+        </div>
+        <div class="location-map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7907.399397472227!2d8.529183835362616!3d7.715335700969398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1050810052604a8b%3A0x388c9c047aba2f3d!2s24%20Hours%20Food%20Domain!5e0!3m2!1sen!2sng!4v1791017194314!5m2!1sen!2sng"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="strict-origin-when-cross-origin"
+          >
+          </iframe>
+        </div>
+      </section>
     </main>
     <footer>
-        <p>&copy; 2026 Food Domain Restaurant. All Rights Reserved.</p>
+      <p>&copy; 2026 Food Domain Restaurant. All Rights Reserved.</p>
     </footer>
-</body>
+  </body>
 </html>
