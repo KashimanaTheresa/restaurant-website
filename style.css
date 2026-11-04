@@ -830,7 +830,7 @@ nav {
 /* Best sellers */
 
 .home-page #best-sellers {
-    padding: 45px 5%;
+    padding: 5px 5%;
     text-align: center;
 }
 
@@ -859,10 +859,23 @@ nav {
     flex: 0 0 80%;
     width: 80%;
     min-width: 0;
+    box-sizing: border-box;
     padding: 15px;
     background-color: var(--secondary-color);
+    border: 2px solid transparent;
     border-radius: 12px;
     scroll-snap-align: center;
+}
+
+.cards {
+    flex-basis: 84%;
+    width: 84%;
+}
+
+.active-cards {
+    flex-basis: 92%;
+    width: 92%;
+    border-color: var(--primary-color);
 }
 
 .meal-slides img,
@@ -871,6 +884,10 @@ nav {
     height: 180px;
     object-fit: cover;
     border-radius: 10px;
+}
+
+.meal-slides .active-cards img {
+    height: 210px;
 }
 
 .cards h3,
@@ -970,7 +987,7 @@ nav {
     flex-direction: column;
     align-items: center;
     gap: 25px;
-    padding: 45px 5%;
+    padding: 5px 3%;
 }
 
 .about-content,
@@ -1103,7 +1120,7 @@ nav {
     max-width: 1100px;
     height: auto;
     min-height: 0;
-    margin: 25px auto;
+    margin: 5px auto;
     padding: 25px 12px;
     background-size: cover;
     background-position: center;
@@ -1255,7 +1272,7 @@ footer p {
         flex-direction: row;
         text-align: left;
         gap: 35px;
-        padding: 60px 5%;
+        padding: 0px 5%;
     }
 
     .home-page .hero-text,
@@ -1406,14 +1423,15 @@ footer p {
     /* Navbar */
 
     nav {
-        padding: 20px 8%;
+        padding: 0px 5%;
     }
 
     /* Hero */
 
     .home-page #hero {
-        padding: 80px 8%;
+        padding: 0px 8%;
         gap: 50px;
+        
     }
 
     .home-page .hero-text h1 {
@@ -1428,11 +1446,11 @@ footer p {
     }
 
     .cards {
-        flex: 0 1 180px;
+        flex: 0 1 200px;
     }
 
     .active-cards {
-        flex: 0 1 220px;
+        flex: 0 1 250px;
     }
 
     /* Why choose us */
